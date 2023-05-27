@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura Challenge</title>
+    <link rel ="shortcut icon" href="photos/clippe.png"
+</head>
+<body>
+    <header>
+        <img class="logo" src="photos/logo.png">
+    </header>
+    <main>
+        <section class="etapa1">
+            <div class="contenidocajatext">
+                <textarea id="ingresoTexto" placeholder="Ingrese texto" class="cajatexto" ></textarea> 
+
+            </div>
+
+            <div class="alerta">
+                <img src="photos/signo.png">
+                <p>Solo letras minúsculas y sin acentos</p>
+                
+
+            </div>
+            
+            <div class="contenedor-botones">
+                <input type="button" id="botonEncriptar" class="boton-encriptar" value="Encriptar">
+                <input type="button" id="botonDesencriptar" class="boton-desencriptar" value="Desencriptar">
+            </div>
+
+
+        </section>
+        <section class="etapa2">
+            <div id="munheco" class="contenedormunieco" >
+                <img src="photos/munieco-01.png" alt="munieco" >
+            </div>
+            <div class="contenedor-parrafo">
+                
+                <textarea  id="derInfo2" class="mens">Ningún mensaje fue encontrado</textarea>
+                <p id="derInfo">Ingresa texto a encriptar<br> o Desencriptar</p>
+                <textarea id="mensajeFinal" class="claro"></textarea>
+
+            </div>
+            <div >
+                <input  type="button" id="botonCopia" class="botoncopiar" value="Copiar" >
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
